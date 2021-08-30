@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    min-width: 400px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 100%;
+    font-size: 13px;
+    line-height: 40px;
+    margin-top: 7px;
+}
+
+#hl {
+    float: left;
+    color: rgb(95, 99, 104);
+}
+
+#hl a {
+    margin-left: 25px;
+}
+
+#hr {
+    float: right;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+#hr a {
+    margin-right: 18px;
+}
+
+#sign-in-btn {
+    background-color: rgba(0, 81, 255, 0.829);
+    padding: 5px 11px;
+    border-color: transparent;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 182px;
+}
+
+#search-bar {
+    display: flex;
+    border: 1px solid;
+    padding: 0.5em 0.5em;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 25px;
+    align-items: center;
+    border-color: rgba(0, 0, 0, 0.15);
+    height: 30px;
+}
+
+#search-bar:hover  {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.109);
+}
+
+#icon {
+    margin-left: 9px;
+    height: 15px;
+    opacity: 0.4;
+}
+
+#search-bar input {
+    border-color: transparent;
+    margin-left: 12px;
+    width: 375px;
+    height: 100%;
+}
+
+#search-btns {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#search-btns button {
+    padding: 9px 15px;
+    border-radius: 4px;
+    border-color: transparent;
+    border-width: 1px;
+    font-size: 14px;
+    color: rgb(95, 99, 104);
+    margin-bottom: 150px;
+}
+
+#search-btns button:hover {
+    border-color: rgb(198, 198, 198);
+    color: rgba(0, 0, 0, 0.801);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: rgb(95, 99, 104);
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    border: 1px solid rgba(118, 118, 118, 0.2);
+}
+
+
+#fsl {
+    float: left;
+    margin-left: 30px;
+}
+
+#fsl a {
+    margin-left: 25px;
+}
+
+#fsr {
+    float: right;
+    margin-right: 30px;
+}
+
+#fsr a {
+    margin-right: 25px;
+}
+
+@media (max-width: 660px) {
+    footer {
+        display: none;
+    }
+
+    #hl a {
+        margin-left: 10px;
+    }
+
+    #hr a {
+        margin-right: 10px;
+    }
+
+    #search-bar {
+        width: 80%;
+    }
+
+    #search-bar input {
+        width: 275px;
+    }
+}
+
+@media (max-height: 768px) {
+    footer {
+        position: static;
+    }
+
+}
