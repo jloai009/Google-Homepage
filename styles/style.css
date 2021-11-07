@@ -41,6 +41,10 @@ header {
     font-weight: bold;
 }
 
+#sign-in-btn:hover {
+    cursor: pointer;
+}
+
 #logo {
     display: block;
     margin-left: auto;
