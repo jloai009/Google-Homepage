@@ -3,6 +3,17 @@ body {
     min-width: 400px;
 }
 
+#page-container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -107,9 +118,10 @@ header {
 }
 
 footer {
+    height: 2.5rem;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
+    bottom: 0;
     color: rgb(95, 99, 104);
     display: block;
     font-size: 14px;
@@ -156,11 +168,4 @@ footer {
     #search-bar input {
         width: 275px;
     }
-}
-
-@media (max-height: 768px) {
-    footer {
-        position: static;
-    }
-
 }
