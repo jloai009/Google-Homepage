@@ -1,6 +1,6 @@
 # An HTML/CSS template that looks like Google's homepage
 
-This marked my humble beginning to an ambitious and rewarding career developing software.
+This marks my humble beginning to an ambitious and rewarding career developing software
 
 [Click here to view](https://jloai009.github.io/)
 
